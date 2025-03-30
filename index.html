@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paez Travel - Una aventura más al alcance de un clic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Paez Travel</h1>
+        <p>Una aventura más al alcance de un clic</p>
+    </header>
+
+    <!-- Descripción de la empresa -->
+    <section class="descripcion">
+        <div class="contenido-descripcion">
+            <h2>Descubre Colombia con Paez Travel</h2>
+            <p>Somos una empresa colombiana dedicada a ofrecer experiencias inolvidables. Conectamos a los viajeros con la belleza natural y cultural de nuestro país, brindando aventuras únicas en los destinos más espectaculares.</p>
+        </div>
+    </section>
+
+    <!-- Sección de paquetes -->
+    <section class="paquetes">
+        <h2>Destinos populares</h2>
+        
+        <div class="destino">
+            <img src="SantaMarta.jpeg" alt="Santa Marta">
+            <h3>Santa Marta</h3>
+            <p>Disfruta de las playas cristalinas de Tayrona, las montañas de la Sierra Nevada y la ciudad más antigua de Colombia.</p>
+            <p><strong>Precio: $1.500.000 COP</strong></p>
+            <button onclick="agregarAlCarrito('Santa Marta', 1500000)">Agregar al carrito</button>
+        </div>
+
+        <div class="destino">
+            <img src="Cartagena.jpeg" alt="Cartagena">
+            <h3>Cartagena</h3>
+            <p>Descubre la historia colonial, el encanto del centro histórico y las paradisíacas Islas del Rosario.</p>
+            <p><strong>Precio: $1.800.000 COP</strong></p>
+            <button onclick="agregarAlCarrito('Cartagena', 1800000)">Agregar al carrito</button>
+        </div>
+
+        <div class="destino">
+            <img src="SanAndres.jpeg" alt="San Andrés">
+            <h3>San Andrés</h3>
+            <p>Nada en el mar de siete colores, explora Johnny Cay y disfruta de la cultura isleña.</p>
+            <p><strong>Precio: $2.000.000 COP</strong></p>
+            <button onclick="agregarAlCarrito('San Andrés', 2000000)">Agregar al carrito</button>
+        </div>
+    </section>
+
+    <!-- Carrito de compras -->
+    <section class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p><strong>Total: </strong>$<span id="total">0</span> COP</p>
+    </section>
+
+    <!-- Habla con nosotros -->
+    <section class="whatsapp">
+        <h2>Habla con nosotros</h2>
+        <p>¿Tienes dudas? Contáctanos por WhatsApp y te ayudamos a planear tu viaje.</p>
+        <a href="https://wa.me/573001234567" target="_blank" class="whatsapp-btn">
+            <img src="whatsapp-icon.jpeg" alt="WhatsApp">
+            Chatear en WhatsApp
+        </a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
