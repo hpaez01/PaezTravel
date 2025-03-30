@@ -3,134 +3,99 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
     background-color: #f4f4f4;
 }
 
-/* Estilo del encabezado */
+/* Encabezado */
 header {
-    background-color: #0044cc;
+    background-color: #ff5733;
     color: white;
-    text-align: center;
     padding: 20px;
 }
 
-/* Descripción de la empresa con imagen de fondo */
-.descripcion {
-    background-image: url('fondo-viaje.jpg'); /* Imagen de fondo */
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 60px;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-}
-
-/* Fondo oscuro semitransparente para resaltar el texto */
-.contenido-descripcion {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
+/* Publicidad */
+.publicidad img {
+    width: 500%;
+    max-width: 100px;
+    margin-top: 20px;
 }
 
 /* Sección de paquetes */
 .paquetes {
-    text-align: center;
     padding: 20px;
 }
 
-/* Diseño de los paquetes */
 .destino {
     display: inline-block;
-    width: 300px;
-    margin: 20px;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    background: white;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-/* Ajuste de imágenes para que todas sean iguales */
 .destino img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.destino h3 {
-    color: #333;
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
 }
 
 button {
-    background-color: #0044cc;
+    background-color: #ff5733;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 16px;
 }
 
 button:hover {
-    background-color: #0033aa;
+    background-color: #c70039;
 }
 
 /* Carrito de compras */
 .carrito {
-    text-align: center;
-    background-color: white;
+    background: white;
     padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-#lista-carrito {
-    list-style: none;
-    padding: 0;
+/* Botón eliminar */
+.btn-eliminar {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
 }
 
-#lista-carrito li {
-    background-color: #f8f8f8;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
+.btn-eliminar:hover {
+    background-color: darkred;
 }
 
-/* Sección de WhatsApp */
+/* WhatsApp */
 .whatsapp {
-    text-align: center;
-    padding: 20px;
-    background-color: #25D366;
-    color: white;
-}
-
-.whatsapp a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
+    margin-top: 20px;
 }
 
 .whatsapp-btn {
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 15px;
-    background-color: white;
-    color: #25D366;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 10px;
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .whatsapp-btn img {
     width: 20px;
-    height: 20px;
-    margin-right: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
-
